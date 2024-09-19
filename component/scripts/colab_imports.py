@@ -4,7 +4,7 @@ import ee # google earth engine
 
 ee.Authenticate()
 
-ee.Initialize(project="ee-andyarnellgee") # NB gee project name is defined in parameters section
+ee.Initialize(project="ee-xavidelamo") # NB gee project name is defined in parameters section
 
 from datetime import datetime # for time stamping error log
 import pandas as pd # pandas library for tabular data manipulation
